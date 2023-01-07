@@ -112,13 +112,14 @@
 .plan-container {
     display: flex;
     justify-content: center;
+    left: 660px;
 }
 
 .plans-title {
     position: absolute;
     width: 179px;
     height: 47px;
-    left: 765px;
+    left: 665px;
     top: 1792px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -144,7 +145,6 @@
     height: 35px;
     left: 230px;
     top: 2011.96px;
-
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
