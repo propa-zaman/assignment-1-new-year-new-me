@@ -3,26 +3,12 @@
     font-family: 'Word Sans', sans-serif;
 }
 
-.btn-primary {
-    background: #FFFFFF;
-    border-radius: 5px;
-    width: 160px;
-    height: 64px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #005FAC;
-    padding: 20px 25px;
-    border: 0;
-    text-align: right;
-    margin-left: 1215px;
-    margin-top: 558px;
-}
 
 /* banner styles */
 .banner {
     display: flex;
-    background-image: url('./images/banner/banner3.png');
-    background-size: contain;
+    /* background-image: url('./images/banner/banner3.png');
+    background-size: contain; */
     height: 808px;
     width: 1600px;
     left: 0px;
@@ -46,6 +32,24 @@
     text-align: right;
 
     color: #FFFFFF;
+
+}
+
+.btn-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    border: 0;
 
 }
 
@@ -349,17 +353,19 @@
     left: 294px;
     top: 2398.96px;
 }
+
 /* footer styles*/
-.footer{
+.footer {
     position: absolute;
-width: 1600px;
-height: 577px;
-left: 0px;
-top: 2651.96px;
-background: #151414;
-display: flex;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    background: #151414;
+    display: flex;
 }
-.footer-title{
+
+.footer-title {
     position: absolute;
     width: 148px;
     height: 53px;
@@ -371,9 +377,10 @@ display: flex;
     font-size: 45px;
     line-height: 53px;
     color: #F8F8F8;
-    
+
 }
-.footer-description{
+
+.footer-description {
     position: absolute;
     width: 485px;
     height: 78px;
@@ -386,7 +393,8 @@ display: flex;
     line-height: 26px;
     color: #FFFFFF;
 }
-.email{
+
+.email {
     position: absolute;
     width: 184px;
     height: 26px;
@@ -394,72 +402,79 @@ display: flex;
     top: 301px;
     color: #FFFFFF;
 }
-.phone{
+
+.phone {
     position: absolute;
-width: 186px;
-height: 26px;
-left: 230px;
-top: 343px;
-color: #FFFFFF;
+    width: 186px;
+    height: 26px;
+    left: 230px;
+    top: 343px;
+    color: #FFFFFF;
 }
-.fb{
+
+.fb {
     position: absolute;
-width: 47px;
-height: 46px;
-left: 230px;
+    width: 47px;
+    height: 46px;
+    left: 230px;
     top: 401px;
 }
-.yt{
+
+.yt {
     position: absolute;
     width: 47px;
     height: 46px;
     left: 294px;
     top: 401px;
 }
-.twt{
+
+.twt {
     position: absolute;
     width: 46px;
     height: 46px;
     left: 359px;
     top: 401px;
-    
+
 }
-.subscribe-title{
+
+.subscribe-title {
     position: absolute;
     width: 123px;
     height: 29px;
     left: 1046px;
     top: 130px;
-    
+
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
-    
+
     color: #FFFFFF;
 }
-.input-mail{
+
+.input-mail {
     position: absolute;
     width: 325px;
     height: 54px;
     left: 1046px;
     top: 190px;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     background: #005FAC;
     border-radius: 8px;
     position: absolute;
-width: 170.11px;
-height: 64px;
-left: 1046px;
-top: 270px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-color: #FFFFFF;
-border: 0;
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 270px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0;
 
 }
