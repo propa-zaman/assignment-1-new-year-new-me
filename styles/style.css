@@ -349,3 +349,117 @@
     left: 294px;
     top: 2398.96px;
 }
+/* footer styles*/
+.footer{
+    position: absolute;
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2651.96px;
+background: #151414;
+display: flex;
+}
+.footer-title{
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 130px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    
+}
+.footer-description{
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 199px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.email{
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 301px;
+    color: #FFFFFF;
+}
+.phone{
+    position: absolute;
+width: 186px;
+height: 26px;
+left: 230px;
+top: 343px;
+color: #FFFFFF;
+}
+.fb{
+    position: absolute;
+width: 47px;
+height: 46px;
+left: 230px;
+    top: 401px;
+}
+.yt{
+    position: absolute;
+    width: 47px;
+    height: 46px;
+    left: 294px;
+    top: 401px;
+}
+.twt{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 359px;
+    top: 401px;
+    
+}
+.subscribe-title{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 1046px;
+    top: 130px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+.input-mail{
+    position: absolute;
+    width: 325px;
+    height: 54px;
+    left: 1046px;
+    top: 190px;
+}
+.btn-subscribe{
+    background: #005FAC;
+    border-radius: 8px;
+    position: absolute;
+width: 170.11px;
+height: 64px;
+left: 1046px;
+top: 270px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+border: 0;
+
+}
