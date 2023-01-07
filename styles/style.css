@@ -109,6 +109,11 @@
 }
 
 /* plans style */
+.plan-container {
+    display: flex;
+    justify-content: center;
+}
+
 .plans-title {
     position: absolute;
     width: 179px;
@@ -123,24 +128,23 @@
     text-align: center;
     color: #151414;
 }
-.plan-container{
-display: flex;
-}
-.plan-icon-1{
+
+.plan-icon-1 {
     position: absolute;
-width: 92.96px;
-height: 92.96px;
-left: 294px;
-top: 1895px;
+    width: 92.96px;
+    height: 92.96px;
+    left: 294px;
+    top: 1895px;
 
 }
-.plan-title-1{
+
+.plan-title-1 {
     position: absolute;
     width: 270px;
     height: 35px;
     left: 230px;
     top: 2011.96px;
-    
+
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -148,21 +152,200 @@ top: 1895px;
     line-height: 35px;
     text-align: center;
     color: #151414;
-    
+
 }
-.plan-description-1{
 
-position: absolute;
-width: 177px;
-height: 29px;
-left: 277px;
-top: 2062.96px;
+.plan-description-1 {
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 29px;
-text-align: center;
-color: #737272;
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    left: 277px;
+    top: 2062.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan-icon-2 {
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 631px;
+    top: 1892px;
+
+}
+
+.plan-title-2 {
+    position: absolute;
+    width: 156px;
+    height: 35px;
+    left: 599px;
+    top: 2006px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-description-2 {
+
+    position: absolute;
+    width: 181px;
+    height: 29px;
+    left: 586px;
+    top: 2057px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+.plan-icon-3 {
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 916px;
+    top: 1889px;
+}
+
+.plan-title-3 {
+    position: absolute;
+    width: 218px;
+    height: 35px;
+    left: 853px;
+    top: 2006px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-description-3 {
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 880px;
+    top: 2057px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+
+
+}
+
+.plan-icon-4 {
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 1218px;
+    top: 1889px;
+
+}
+
+.plan-title-4 {
+
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    left: 1177px;
+    top: 2006px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-description-4 {
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 1157px;
+    top: 2057px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+
+}
+
+/* positive styles */
+.positive {
+    display: flex;
+}
+
+.watch {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 150px;
+    top: 2221.96px;
+    border-radius: 8px;
+}
+
+.gradient {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 150px;
+    top: 2221.96px;
+    border-radius: 8px;
+}
+
+.positive-title {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.btn-positive {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 20px 25px;
+    border: 0;
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2398.96px;
 }
